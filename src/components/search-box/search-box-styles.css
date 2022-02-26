@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Shizuru&display=swap");
+
+.search {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    margin: 10px;
+    padding: 5px 20px;
+    width: 150px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(228, 228, 228, 0.1);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.search:focus {
+    border: 2px solid rgba(228, 228, 228, 0.4);
+}
+.search:focus::placeholder {
+    color: transparent;
+}
